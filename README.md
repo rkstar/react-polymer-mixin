@@ -66,7 +66,7 @@ React.render(<Layout />, document.body)
 ```
 
 # React-Meteor ?
-I've been testing this theory out with [react-meteor]() and it is working!  There are some issues, but overall, I consider it a success.
+I've been testing this theory out with [react-meteor](https://github.com/reactjs/react-meteor) and it is working!  There are some issues, but overall, I consider it a success.
 
 # Contributors Wanted
 Please make PRs if you can help me make this mixin better!  Polymer is really cool, and so is React (and Meteor for that matter!).  Using all of these awesome technologies together makes me happy.
