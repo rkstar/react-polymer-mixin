@@ -17,7 +17,6 @@ Polymer = {
             node.setAttribute(attr,'')
           }
         })
-        node.removeAttribute(this._polymer_attribute)
       }
 
       childNodes.map(function(child){
@@ -26,6 +25,10 @@ Polymer = {
     },
 
     componentDidMount: function(){
+      this._polymerize(this.getDOMNode())
+    },
+
+    componentDidUpdate: function(){
       this._polymerize(this.getDOMNode())
     }
   }
